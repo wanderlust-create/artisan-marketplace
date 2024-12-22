@@ -5,9 +5,6 @@ class CreateTransactions < ActiveRecord::Migration[7.0]
       t.string :credit_card_number
       t.string :credit_card_expiration_date
       t.integer :status
-      t.datetime :created_at
-      t.datetime :updated_at
-
       t.timestamps
     end
   end

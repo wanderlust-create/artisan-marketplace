@@ -4,9 +4,6 @@ class CreateArtisans < ActiveRecord::Migration[7.0]
       t.string :store_name
       t.string :email
       t.string :password_digest
-      t.datetime :created_at
-      t.datetime :updated_at
-
       t.timestamps
     end
   end
