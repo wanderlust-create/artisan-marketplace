@@ -3,4 +3,3 @@ class RemoveStatusFromInvoicesAndInvoiceItems < ActiveRecord::Migration[7.0]
     remove_column :invoices, :status, :string
   end
 end
-
