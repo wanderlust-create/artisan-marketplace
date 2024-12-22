@@ -42,8 +42,9 @@ jobs:
       - name: Set up database
         run: |
           cp config/database.yml.ci config/database.yml || echo 'No custom database.yml.ci provided'
-          bin/rails db:create
-          bin/rails db:schema:load
+          RAILS_ENV=test bin/rails db:create
+          RAILS_ENV=test bin/rails db:schema:load
+
 
       - name: Run tests
         run: bin/rails test
