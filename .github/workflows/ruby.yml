@@ -2,9 +2,11 @@ name: Ruby CI
 
 on:
   push:
-    branches: [ main ]
+    branches: # Runs on all branches
+      - '*'
   pull_request:
-    branches: [ main ]
+    branches: # Runs on all pull requests
+      - '*'
 
 jobs:
   test:
