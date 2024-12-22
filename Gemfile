@@ -40,6 +40,7 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
+gem 'bcrypt', '~> 3.1.7'
 gem "bootsnap", require: false
 gem 'rubocop', require: false
 gem 'rubocop-rails', require: false
@@ -68,4 +69,11 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+group :test do
+  gem 'factory_bot_rails'
+  gem 'faker', '~> 2.20'
+  gem 'shoulda-matchers', '~> 5.0'
+  gem 'simplecov', require: false
+end
+
 
