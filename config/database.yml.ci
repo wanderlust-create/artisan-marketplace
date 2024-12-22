@@ -2,11 +2,15 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
+
+development:
+  <<: *default
+  database: artisan_marketplace_development
   username: postgres
   password: postgres
-  host: localhost
 
 test:
   <<: *default
   database: artisan_marketplace_test
-
+  username: postgres
+  password: postgres
