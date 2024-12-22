@@ -1,5 +1,5 @@
 class Artisan < ApplicationRecord
-  belongs_to :admin, optional: true
+  belongs_to :admin
 
   has_many :products, dependent: :destroy
   has_secure_password
