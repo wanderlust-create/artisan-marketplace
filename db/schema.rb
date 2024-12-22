@@ -10,9 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_12_22_050224) do
+ActiveRecord::Schema[7.0].define(version: 2024_12_22_170441) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "admins", force: :cascade do |t|
+    t.string "email", null: false
+    t.string "password_digest", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["email"], name: "index_admins_on_email", unique: true
+  end
 
   create_table "artisans", force: :cascade do |t|
     t.string "store_name"
@@ -20,6 +28,8 @@ ActiveRecord::Schema[7.0].define(version: 2024_12_22_050224) do
     t.string "password_digest"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "admin_id"
+    t.index ["admin_id"], name: "index_artisans_on_admin_id"
   end
 
   create_table "customers", force: :cascade do |t|
@@ -81,6 +91,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_12_22_050224) do
     t.index ["invoice_id"], name: "index_transactions_on_invoice_id"
   end
 
+  add_foreign_key "artisans", "admins"
   add_foreign_key "invoice_items", "invoices"
   add_foreign_key "invoice_items", "products"
   add_foreign_key "invoices", "customers"
