@@ -40,13 +40,12 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
+gem 'bcrypt', '~> 3.1.7'
 gem "bootsnap", require: false
 gem 'rubocop', require: false
 gem 'rubocop-rails', require: false
 gem 'rubocop-rspec', require: false
 gem 'rubocop-rspec_rails', require: false
-gem 'bcrypt', '~> 3.1.7'
-
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -71,10 +70,10 @@ group :development do
   # gem "spring"
 end
 group :test do
-  gem 'shoulda-matchers', '~> 5.0'
-  gem 'simplecov', require: false
   gem 'factory_bot_rails'
   gem 'faker', '~> 2.20'
+  gem 'shoulda-matchers', '~> 5.0'
+  gem 'simplecov', require: false
 end
 
 

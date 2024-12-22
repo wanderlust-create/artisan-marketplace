@@ -4,8 +4,6 @@ class Invoice < ApplicationRecord
   has_many :products, through: :invoice_items
   has_many :transactions, dependent: :destroy
 
-
   validates :status, presence: true
   enum status: { pending: 0, shipped: 1, completed: 2, canceled: 3 }
 end
-
