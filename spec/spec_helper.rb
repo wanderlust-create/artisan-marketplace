@@ -13,6 +13,7 @@
 # it.
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+require 'factory_bot_rails'
 RSpec.configure do |config|
   # Include FactoryBot methods to simplify syntax
   config.include FactoryBot::Syntax::Methods
