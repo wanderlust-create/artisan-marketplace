@@ -5,9 +5,6 @@ class CreateReviews < ActiveRecord::Migration[7.0]
       t.text :text
       t.references :product, null: false, foreign_key: true
       t.references :customer, null: false, foreign_key: true
-      t.datetime :created_at
-      t.datetime :updated_at
-
       t.timestamps
     end
   end
