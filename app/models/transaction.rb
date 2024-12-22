@@ -18,7 +18,7 @@ class Transaction < ApplicationRecord
     rescue StandardError
       nil
     end
-    return unless parsed_date && parsed_date < Date.today
+    return unless parsed_date && parsed_date < Time.zone.today
 
     errors.add(:credit_card_expiration_date, "cannot be in the past")
   end
