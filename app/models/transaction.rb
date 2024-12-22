@@ -11,7 +11,7 @@ class Transaction < ApplicationRecord
   private
 
   def expiration_date_cannot_be_in_the_past
-    return unless credit_card_expiration_date.present?
+    return if credit_card_expiration_date.blank?
 
     parsed_date = begin
       Date.strptime(credit_card_expiration_date, '%m/%y')
