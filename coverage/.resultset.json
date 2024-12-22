@@ -1,0 +1,172 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/models/artisan.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/channels/application_cable/channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {}
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/channels/application_cable/connection.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {}
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {}
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {}
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {}
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/models/customer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null
+        ],
+        "branches": {}
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/models/invoice.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null
+        ],
+        "branches": {}
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/models/invoice_item.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null
+        ],
+        "branches": {}
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/models/product.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null
+        ],
+        "branches": {}
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/models/review.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null
+        ],
+        "branches": {}
+      },
+      "/Users/tamara/tad_code.nosync/a_new_beginning/ruby_projects/artisan-marketplace/app/models/transaction.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null
+        ],
+        "branches": {}
+      }
+    },
+    "timestamp": 1734849582
+  }
+}
