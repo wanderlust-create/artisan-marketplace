@@ -45,6 +45,8 @@ gem 'rubocop', require: false
 gem 'rubocop-rails', require: false
 gem 'rubocop-rspec', require: false
 gem 'rubocop-rspec_rails', require: false
+gem 'bcrypt', '~> 3.1.7'
+
 
 # Use Sass to process CSS
 # gem "sassc-rails"
